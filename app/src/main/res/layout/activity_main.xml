@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.anupamchugh.animatetextandimageview.MainActivity">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/no_shuffle_fade_in_fade_out"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <com.anupamchugh.fadeslidetextandimageview.AnimateTextView
+            android:id="@+id/animateTextViewWithoutShuffle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:minLines="2"
+            app:intervalText="1000"
+            app:shuffleTexts="false" />
+
+        <com.anupamchugh.fadeslidetextandimageview.AnimateImageView
+            android:id="@+id/animateImageViewWithoutShuffle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            app:intervalImage="1000"
+            app:shuffleImages="false" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/shuffle_slide_in_left_and_right"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+
+        <com.anupamchugh.fadeslidetextandimageview.AnimateTextView
+            android:id="@+id/animateTextViewWithShuffle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:minLines="2"
+            app:fadeInFadeOut="false"
+            app:shuffleTexts="true" />
+
+        <com.anupamchugh.fadeslidetextandimageview.AnimateImageView
+            android:id="@+id/animateImageViewWithShuffle"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="4dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            app:imageFadeInFadeOut="false"
+            app:shuffleImages="true" />
+
+
+    </LinearLayout>
+</ScrollView>

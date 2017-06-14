@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AnimateTextAndImageView</string>
+    <string name="shuffle_slide_in_left_and_right">SHUFFLE. SLIDE IN LEFT AND RIGHT.</string>
+    <string name="no_shuffle_fade_in_fade_out">NO SHUFFLE. FADE IN FADE OUT.</string>
+</resources>

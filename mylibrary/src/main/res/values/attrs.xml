@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="animateTextView">
+        <attr name="shuffleTexts" format="boolean" />
+        <attr name="intervalText" format="integer" />
+        <attr name="textArray" format="string" />
+        <attr name="fadeInFadeOut" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="animateImageView">
+        <attr name="intervalImage" format="integer" />
+        <attr name="imageType" format="string" />
+        <attr name="shuffleImages" format="boolean" />
+        <attr name="imageFadeInFadeOut" format="boolean" />
+    </declare-styleable>
+
+</resources>
