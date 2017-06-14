@@ -11,8 +11,11 @@ A library to animate through an array of texts or images with fade or slide anim
 
 `compile 'com.github.anupamchugh:AnimateTextAndImageView:1.0'`
 
+# Demo
+![alt text] (https://github.com/anupamchugh/AnimateTextAndImageView/blob/master/demo.gif)
+
 # Cool Feature
-To animate the ImageView with different images, you can pass the drawables as well as image urls inside the object array. The library uses Picasso to fetch and display the images from URL.
+To animate the ImageView with different images, you can pass the drawables as well as image urls inside the same object array in the method `setImageArray`. The library uses Picasso to fetch and display the images from URL.
 
 # Usage
 
