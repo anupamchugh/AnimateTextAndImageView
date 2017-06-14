@@ -1,5 +1,5 @@
 # AnimateTextAndImageView
-A library to animate through an array of texts or images with fade or slide animation
+A library to animate through an array of texts or images with fade or slide animation. Useful in apps that display a list of quotes in a TextView or where the background images continously change with some animation. To not stick to the same order everytime use the shuffle attribute in xml.
 
 
 	
